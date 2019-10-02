@@ -4,12 +4,12 @@ import './card.styles.css';
 /**
  * Display the monster card contents.
  * Cards display the monster's avatar, name, and email.
- * @param {Object} props - monster data.
+ * @param {Object} monster - monster data.
  */
-export const Card = props => (
+export const Card = ({ monster }) => (
     <div className='card-container'>
-        <img alt='monster' src={`https://robohash.org/${props.monster.id}?set=any&size=180x180`} />
-        <h2>{props.monster.name}</h2>
-        <p>{props.monster.email}</p>
+        <img alt='monster' src={`https://robohash.org/${monster.id}?set=any&size=180x180`} />
+        <h2>{monster.name}</h2>
+        <p>{monster.email}</p>
     </div>
 );

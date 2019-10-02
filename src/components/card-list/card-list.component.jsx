@@ -4,12 +4,12 @@ import './card-list.styles.css';
 
 /**
  * Display the monster card grid.
- * @param {Object} props - array of monsters.
+ * @param {Object} monsters - array of monsters.
  */
-export const CardList = props => (
+export const CardList = ({ monsters }) => (
     <div className='card-list'>
         {
-            props.monsters.map(monster => (
+            monsters.map(monster => (
                 <Card key={monster.id} monster={monster}/>
             ))
         }
