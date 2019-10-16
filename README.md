@@ -1,6 +1,6 @@
 # Monsters Rolodex
 
-This project is an introduction to the [React](https://reactjs.org/) JavaScript library.
+This project is an introduction to the [React](https://reactjs.org/) JavaScript library. It simply displays a list of monster cards with contact information that can be filtered by searching.
 
 In building this app, I learned the ins and outs of the basic concepts of React. These include:
 
